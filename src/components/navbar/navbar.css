@@ -1,0 +1,8 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 1400px;
+}
