@@ -15,7 +15,13 @@ const Navbar = () => {
     return () => {
       window.removeEventListener("scroll",isActive)
     }
-  },[])
+  }, [])
+  
+  const currentUser = {
+    id: 1,
+    username: "john doe",
+    isSeller:true
+  }
   return (
     <div className={active ? "navbar active" : "navbar"}>
       <div className="container">
