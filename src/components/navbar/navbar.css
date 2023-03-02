@@ -5,9 +5,12 @@
     background-color: #013914;
     flex-direction: column;
     align-items: center;
+    transition: .5s all ease;
+    position: sticky;
+    top: 0;
 }
 
-.navbar .active{
+ .active{
     background-color: white;
     color: black;
 }
@@ -50,7 +53,7 @@ button:hover{
 }
 
 hr{
-    border: .5px solid rgb(150, 147, 147);
+    border: .5px solid rgb(211, 208, 208);
     height: 0;
     width: 100%;
 }
