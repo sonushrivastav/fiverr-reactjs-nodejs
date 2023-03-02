@@ -1,8 +1,43 @@
 .navbar{
     display: flex;
     justify-content: center;
+    color: white;
+    background-color: #013914;
 }
 
 .container{
-    width: 1400px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.logo{
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.dots{
+    color: #1dbf73;
+}
+
+.links{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    font-weight: 500;
+}
+
+button{
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+button:hover{
+    background-color: #1dbf73;
+    border-color: #1dbf73;
 }
