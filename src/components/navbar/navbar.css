@@ -7,6 +7,10 @@
     align-items: center;
 }
 
+.navbar .active{
+    background-color: white;
+    color: black;
+}
 .container{
     width: 1100px;
     display: flex;
@@ -45,9 +49,19 @@ button:hover{
     border-color: #1dbf73;
 }
 
+hr{
+    border: .5px solid rgb(150, 147, 147);
+    height: 0;
+    width: 100%;
+}
+
 .menu{
     width: 1100px;
     padding: 10px 0px;
     display: flex;
     justify-content: space-between;
+    font-family: "Montserrat",sans-serif;
+    color: gray;
+    font-weight: 300;
+
 }
