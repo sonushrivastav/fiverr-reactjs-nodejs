@@ -5,6 +5,7 @@ import "./navbar.css";
 const Navbar = () => {
 
   const [active, setActive] = useState(false)
+  const [open,setOpen]=useState(false)
   
   const isActive = () => {
     window.scrollY > 0 ? setActive(true) : setActive(false)
@@ -40,10 +41,10 @@ const Navbar = () => {
           {!currentUser?.isSeller && <span>Become a Seller</span>}
           {!currentUser && <button>Join</button>}
           {currentUser && (
-            <div className="user">
-              <img src={img} alt="" />
+            <div className="user" onClick={()=> setOpen(!open)}>
+              <img src="https://d1.awsstatic.com/acs/characters/Logos/Docker-Logo_Horizontel_279x131.b8a5c41e56b77706656d61080f6a0217a3ba356d.png" alt="" />
               <span>{ currentUser?.username}</span>
-              <div className="options">
+              {open && <div className="options">
                 {
                   currentUser?.isSeller && (
                     <>
@@ -55,7 +56,7 @@ const Navbar = () => {
                 <span>Orders</span>
                 <span>Messages</span>
                 <span>Logout</span>
-              </div>
+              </div>}
             </div>
           )}
         </div>
