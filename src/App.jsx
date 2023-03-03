@@ -1,25 +1,29 @@
-import React from 'react'
-import Home from "./pages/home/Home"
-import Navbar from './components/navbar/Navbar'
-import Footer from './components/footer/Footer'
-import {
-  createBrowserRouter,
-  Outlet,
-  RouterProvider,
-} from "react-router-dom";
+import React from "react";
+import Home from "./pages/home/Home";
+import Gigs from "./pages/gigs/Gigs"
+import Gig from "./pages/gig/Gig"
+import Orders from "./pages/orders/Orders"
+import MyGigs from "./pages/myGigs/MyGigs"
+import Add from "./pages/addgigs/Add"
+import Messages from "./pages/messages/Messages"
+import SingleMessage from "./pages/singlemessage/SingleMessage"
+import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/footer/Footer";
+import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
+import "./app.css"
 
 function App() {
   const Layout = () => {
     return (
       <>
-        <div className='app'>
-         <Navbar/>
-         <Outlet/>
-         <Footer/>
+        <div className="app">
+          <Navbar />
+          <Outlet />
+          <Footer />
         </div>
-       </>
-     )
-   }
+      </>
+    );
+  };
 
   const router = createBrowserRouter([
     {
@@ -28,49 +32,45 @@ function App() {
       children: [
         {
           path: "/",
-          element:<Home/>
+          element: <Home />,
         },
         {
           path: "/gigs",
-          element:<Gigs/>
+          element: <Gigs />,
         },
         {
           path: "/gig/:id",
-          element:<Gig/>
+          element: <Gig />,
         },
         {
           path: "/orders",
-          element:<Orders/>
+          element: <Orders />,
         },
         {
           path: "/mygigs",
-          element:<MyGigs/>
+          element: <MyGigs />,
         },
         {
           path: "/add",
-          element:<Add/>
+          element: <Add />,
         },
 
-{
+        {
           path: "/messages",
-          element:<Messages/>
+          element: <Messages />,
         },
         {
           path: "/message/:id",
-          element:<SingleMessage/>
+          element: <SingleMessage />,
         },
-        
-        
-
-      ]
+      ],
     },
   ]);
   return (
     <>
-      <RouterProvider router={ router} />
-      
+      <RouterProvider router={router} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
