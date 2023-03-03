@@ -68,3 +68,27 @@ hr{
     font-weight: 300;
 
 }
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.user img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.options{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    padding: 20px;
+    background-color: #fff;
+    border: 10px;
+    border: 1px solid lightgray;
+}
