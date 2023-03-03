@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import img from "../../assets/Anime-1.jpg"
 import { Link } from "react-router-dom";
 import "./navbar.css";
 const Navbar = () => {
@@ -24,11 +23,13 @@ const Navbar = () => {
     username: "john doe",
     isSeller:true
   }
+
+  
   return (
     <div className={active ? "navbar active" : "navbar"}>
       <div className="container">
         <div className="logo">
-          <Link to="/" className="links">
+          <Link to="/" style={{textDecoration:"none", color:"inherit"}}>
             <span className="text">fiverr</span>
           </Link>
           <span className="dots">.</span>
