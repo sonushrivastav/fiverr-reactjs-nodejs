@@ -74,6 +74,7 @@ hr{
     align-items: center;
     gap: 10px;
     cursor: pointer;
+    position: relative;
 }
 
 .user img{
@@ -89,6 +90,12 @@ hr{
     right: 0;
     padding: 20px;
     background-color: #fff;
-    border: 10px;
+    border-radius: 10px;
     border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: gray;
+    width: 200px;
+    font-weight: 300;
 }

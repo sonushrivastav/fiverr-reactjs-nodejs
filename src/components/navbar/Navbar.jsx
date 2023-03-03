@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import img from "../../assets/Anime-1.jpg"
 // import { Link } from "react-router-dom";
 import "./navbar.css";
 const Navbar = () => {
@@ -40,7 +41,7 @@ const Navbar = () => {
           {!currentUser && <button>Join</button>}
           {currentUser && (
             <div className="user">
-              <img src="" alt="" />
+              <img src={img} alt="" />
               <span>{ currentUser?.username}</span>
               <div className="options">
                 {
