@@ -5,7 +5,7 @@
     background-color: rgb(7, 61, 7);
     color:white;
 }
-.container{
+.featured .container{
     width: 1120px;
     display: flex;
     align-items: center;
@@ -78,6 +78,6 @@
     height: 100%;
 }
 .right img{
-    height: 103.5%;
+    height: 100%;
     object-fit: contain;
 }
