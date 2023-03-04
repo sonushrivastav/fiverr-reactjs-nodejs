@@ -3,7 +3,7 @@ import "./slider.css"
 const Slider = () => {
   return (
     <div className='slider'>
-          <div className='containerr'>
+          <div className='sliderContainer'>
               
       </div>
     </div>

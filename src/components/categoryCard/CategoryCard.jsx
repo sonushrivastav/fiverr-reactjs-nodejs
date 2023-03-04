@@ -1,11 +1,14 @@
-import React from 'react'
-import "./categoryCard.css"
-const CategoryCard = () => {
+import React from "react";
+import { Link } from "react-router-dom";
+import "./categoryCard.css";
+const CategoryCard = ({ item }) => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <Link to="/gig/123">
+      <div className="categoryCard">
+        <div className="categoryContainer"></div>
+      </div>
+    </Link>
+  );
+};
 
-export default CategoryCard
+export default CategoryCard;
