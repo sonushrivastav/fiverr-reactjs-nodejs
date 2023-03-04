@@ -10,16 +10,17 @@ import SingleMessage from "./pages/singlemessage/SingleMessage"
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
+import "./App.css"
 
 function App() {
   const Layout = () => {
     return (
-        <div className="app">
+        <>
           <Navbar/>
           <Outlet/>
           <Footer/>
-        </div>
-    );
+        </>
+    );  
   };
 
   const router = createBrowserRouter([

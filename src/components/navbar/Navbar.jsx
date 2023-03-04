@@ -29,10 +29,10 @@ const Navbar = () => {
     <div className={active ? "navbar active" : "navbar"}>
       <div className="container">
         <div className="logo">
-          <Link to="/" style={{textDecoration:"none", color:"inherit"}}>
+          <Link to="/" className="links">
             <span className="text">fiverr</span>
           </Link>
-          <span className="dots">.</span>
+            <span className="dots">.</span>
         </div>
         <div className="links">
           <span>Fiverr Buisness</span>
