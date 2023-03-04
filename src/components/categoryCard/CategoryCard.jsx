@@ -3,9 +3,11 @@ import { Link } from "react-router-dom";
 import "./categoryCard.css";
 const CategoryCard = ({ item }) => {
   return (
-    <Link to="/gig/123">
+    <Link to="/gigs?cat=design">
       <div className="categoryCard">
-        <div className="categoryContainer"></div>
+        <img src={item.img} alt="" />
+        <span className="desc">{item?.desc}</span>
+        <span className="title">{item?.title}</span>
       </div>
     </Link>
   );
