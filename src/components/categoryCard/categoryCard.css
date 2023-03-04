@@ -1,8 +1,8 @@
 .categoryCard{
-    width: 252px;
+    width: 260px;
     height: 344px;
     color: white;
-    border-radius: 5px;
+    border-radius: 7px;
     cursor: pointer;
     position: relative;
 }
