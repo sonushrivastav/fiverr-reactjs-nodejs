@@ -53,9 +53,10 @@ button:hover{
 }
 
 hr{
-    border: .5px solid rgb(211, 208, 208);
+    border-top: .5px solid #ebe9e9;
+    border-bottom: .5px solid #ebe9e9;
     height: 0;
-    width: 100%;
+    width: calc(100%-2px);
 }
 
 .menu{
