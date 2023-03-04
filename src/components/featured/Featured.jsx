@@ -5,7 +5,7 @@ const Featured = () => {
     <div className='featured'>
           <div className='container'>
               <div className='left'>
-                  <h1>Find the perfect freelance services for your buisness</h1>
+                  <h1>Find the perfect <i>freelance</i> services for your buisness</h1>
                   <div className='search'>
                       <div className='searchInput'>
                           <img src="https://raw.githubusercontent.com/safak/youtube23/fiverr-ui/public/img/search.png" alt="" />
@@ -22,7 +22,7 @@ const Featured = () => {
                   </div>
               </div>
               <div className='right'>
-                  <img src="" alt="" />
+                  <img src="https://raw.githubusercontent.com/safak/youtube23/fiverr-ui/public/img/man.png" alt="" />
               </div>
       </div>
     </div>
