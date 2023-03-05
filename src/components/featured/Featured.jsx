@@ -1,5 +1,7 @@
 import React from 'react'
 import "./featured.css"
+import searchicon from "../../assets/search.png"
+import man from "../../assets/man.png"
 const Featured = () => {
   return (
     <div className='featured'>
@@ -8,7 +10,7 @@ const Featured = () => {
                   <h1>Find the perfect <i>freelance</i> services for your buisness</h1>
                   <div className='search'>
                       <div className='searchInput'>
-                          <img src="https://raw.githubusercontent.com/safak/youtube23/fiverr-ui/public/img/search.png" alt="" />
+                          <img src={ searchicon} alt="" />
                           <input type="text" placeholder='Try building mobile app'/>
                       </div>
                       <button>Search</button>
@@ -22,7 +24,7 @@ const Featured = () => {
                   </div>
               </div>
               <div className='right'>
-                  <img src="https://raw.githubusercontent.com/safak/youtube23/fiverr-ui/public/img/man.png" alt="" />
+                  <img src={man} alt="" />
               </div>
       </div>
     </div>
