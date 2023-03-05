@@ -71,7 +71,7 @@ const Home = () => {
 
       {/* // second feature component */}
 
-      <div className="features dark">
+      <div className="features2 dark">
         <div className="container">
           <div className="item">
             <h1>
@@ -85,17 +85,17 @@ const Home = () => {
               dedicated to businesses
             </p>
             <div className="title">
-              <img src="./img/check.png" alt="" />
+              <img src={check} alt="" />
               Connect to freelancers with proven business experience
             </div>
 
             <div className="title">
-              <img src="./img/check.png" alt="" />
+              <img src={check} alt="" />
               Get matched with the perfect talent by a customer success manager
             </div>
 
             <div className="title">
-              <img src="./img/check.png" alt="" />
+              <img src={check} alt="" />
               Manage teamwork and boost productivity with one powerful workspace
             </div>
             <button>Explore Liverr Business</button>
