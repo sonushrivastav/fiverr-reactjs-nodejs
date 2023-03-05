@@ -1,0 +1,61 @@
+.home{
+
+}
+
+.features{
+background-color: #f1fdf7;
+display: flex;
+justify-content: center;
+padding: 100px 0px;
+}
+
+.Fcontainer{
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.item .title{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   font-weight: 500;
+   font-size: 18px;
+   color: gray;
+}
+
+.title img{
+    width: 24px;
+    height: 24px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.item h1{
+ font-weight: 500;
+ margin-bottom: 10px;
+}
+
+.item p{
+  font-size: 18px;
+  font-weight: 300;
+  color: gray;
+  line-height: 28px;
+  letter-spacing: 1px;
+}
+
+.item:first-child {
+    flex: 2;
+}
+.item:last-child{
+    flex: 3;
+}
+
+.item video{
+  width: 720px;
+}
