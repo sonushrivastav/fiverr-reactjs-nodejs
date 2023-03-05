@@ -17,14 +17,29 @@ padding: 100px 0px;
 }
 
 .features2 .container{
-width: 1200px;
-  display: flex;
-  align-items: center;
-  gap: 50px;
+  width: 1200px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 50px !important;
 }
 
 .features2 .container h1{
-    color: white;
+    color: white !important;
+}
+
+.features2 .container p{
+    color: white !important;
+    margin-bottom: 20px !important;
+}
+
+.features2 .container .title{
+    color: white !important;
+    font-weight: 300 !important;
+    font-size: 14px !important;
+}
+
+.features2 .container img{
+    width: 100%;
 }
 
 .Fcontainer{

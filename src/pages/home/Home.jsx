@@ -71,7 +71,7 @@ const Home = () => {
 
       {/* // second feature component */}
 
-      <div className="features2 dark">
+      <div className="features2">
         <div className="container">
           <div className="item">
             <h1>
