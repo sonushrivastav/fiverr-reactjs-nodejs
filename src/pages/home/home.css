@@ -38,6 +38,23 @@ padding: 100px 0px;
     font-size: 14px !important;
 }
 
+.features2 .container .title img{
+    height: 20px;
+    width: 20px;
+}
+
+.features2 .container .item button{
+    background-color: #1dbf73;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: max-content;
+    border: none;
+}
+
 .features2 .container img{
     width: 100%;
 }
