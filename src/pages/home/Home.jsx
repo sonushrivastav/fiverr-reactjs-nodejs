@@ -5,6 +5,7 @@ import TrustedBy from '../../components/trustedby/TrustedBy'
 import "./home.css"
 import { cards } from '../../data'
 import CategoryCard from '../../components/categoryCard/CategoryCard'
+import check from "../../assets/check.png"
 const Home = () => {
   return (
     <div>
@@ -21,6 +22,13 @@ const Home = () => {
         <div className='Fcontainer'>
           <div className='item'>
             <h1>A Whole world of freelance talent at your fingertips</h1>
+            <div className="title">
+              <img src={check} alt="" />
+              The best for every budget
+            </div>
+            <p>
+              Find high-quality services at every price point. No hourly rates, just project-based pricing
+            </p>
           </div>
           <div className='item'>
             <video src="" controls></video>
