@@ -16,7 +16,17 @@ const Home = () => {
             <CategoryCard key={card?.id} item={ card} />
           ))
         }
-        </Slide>
+      </Slide>
+      <div className='features'>
+        <div className='Fcontainer'>
+          <div className='item'>
+            <h1>A Whole world of freelance talent at your fingertips</h1>
+          </div>
+          <div className='item'>
+            <video src="" controls></video>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
