@@ -109,6 +109,15 @@ const Home = () => {
         </div>
       </div>
 
+      {/* second slider */}
+      <Slide slidesToShow={4} arrowsScroll={3}>
+        {
+          cards?.map(card => (
+            <CategoryCard key={card?.id} item={ card} />
+          ))
+        }
+      </Slide>
+      
     </div>
 
 
