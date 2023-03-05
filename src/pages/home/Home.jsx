@@ -63,7 +63,7 @@ const Home = () => {
             </p>
           </div>
           <div className='item'>
-            <video src={video} controls></video>
+            <video src={video} typeof="video/mp4" loop autoPlay controls></video>
           </div>
         </div>
       </div>
