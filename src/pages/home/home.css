@@ -109,3 +109,17 @@ padding: 100px 0px;
 .item video{
   width: 720px;
 }
+
+.explore{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+.explore .container{
+    width: 1200px;
+}
+
+.explore .container h1{
+    color: #555;
+}
