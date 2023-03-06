@@ -123,3 +123,21 @@ padding: 100px 0px;
 .explore .container h1{
     color: #555;
 }
+
+.explore  .container .items{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.explore  .container .items .item{
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
