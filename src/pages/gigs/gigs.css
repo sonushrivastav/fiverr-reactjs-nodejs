@@ -1,7 +1,7 @@
 .gigs{
     display: flex;
     justify-content: center;
-
+    width: 100%;
 }
 
 .gigs .container{
@@ -26,6 +26,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .gigs .container .menu .left{
@@ -34,4 +35,11 @@
     gap: 10px;
     color: #555;
     font-weight: 300;
+}
+
+.gigs .container .menu .left input{
+    padding: 5px;
+    border: 1px solid lightgray;
+    outline: none;
+    border-radius: 5px;
 }
