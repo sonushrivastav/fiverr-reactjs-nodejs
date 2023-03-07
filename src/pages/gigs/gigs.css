@@ -1,0 +1,37 @@
+.gigs{
+    display: flex;
+    justify-content: center;
+
+}
+
+.gigs .container{
+    width: 1200px;
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.gigs .container .breadcrumbs{
+    font-weight: 300;
+    font-size: 13px;
+    color: #555;
+}
+.gigs .container p{
+    color: #999;
+    font-weight: 300;
+}
+
+.gigs .container .menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gigs .container .menu .left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #555;
+    font-weight: 300;
+}
