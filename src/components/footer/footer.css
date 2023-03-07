@@ -11,16 +11,37 @@
 } */
 
 .footer .container{
-    width: 1200px;
+    width: 1150px;
 }
 
 .footer .container .top{
     display: flex;
     justify-content: space-between;
+    gap: 90px;
 }
 
 .footer .container .top .item{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.footer .container .top .item h2{
+    font-size: 16px;
+    color: #555;
+}
+.footer .container .top .item span{
+    font-weight: 300;
+}
+
+.footer .container hr{
+    margin: 50px 0px;
+    height: 0;
+    border: 1px solid #ebe9e9;
+}
+
+.footer .container .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
