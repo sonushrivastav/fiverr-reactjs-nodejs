@@ -1,36 +1,34 @@
-import React from 'react'
-import Featured from '../../components/featured/Featured'
-import Slide from '../../components/slider/Slide'
-import TrustedBy from '../../components/trustedby/TrustedBy'
-import "./home.css"
-import { cards } from '../../data'
-import { projects } from '../../data'
-import CategoryCard from '../../components/categoryCard/CategoryCard'
-import check from "../../assets/check.png"
-import video from "../../assets/video.mp4"
-import ProjectCard from '../../components/projectCard/ProjectCard'
+import React from "react";
+import Featured from "../../components/featured/Featured";
+import Slide from "../../components/slider/Slide";
+import TrustedBy from "../../components/trustedby/TrustedBy";
+import "./home.css";
+import { cards ,projects} from "../../data";
+import CategoryCard from "../../components/categoryCard/CategoryCard";
+import check from "../../assets/check.png";
+import video from "../../assets/video.mp4";
+import ProjectCard from "../../components/projectCard/ProjectCard";
 const Home = () => {
   return (
-    <div className='home'>
+    <div className="home">
       <Featured />
       <TrustedBy />
       <Slide slidesToShow={4} arrowsScroll={3}>
-        {
-          cards?.map(card => (
-            <CategoryCard key={card?.id} item={ card} />
-          ))
-        }
+        {cards?.map((card) => (
+          <CategoryCard key={card?.id} item={card} />
+        ))}
       </Slide>
-      <div className='features'>
-        <div className='Fcontainer'>
-          <div className='item'>
+      <div className="features">
+        <div className="Fcontainer">
+          <div className="item">
             <h1>A Whole world of freelance talent at your fingertips</h1>
             <div className="title">
               <img src={check} alt="" />
               The best for every budget
             </div>
             <p>
-              Find high-quality services at every price point. No hourly rates, just project-based pricing
+              Find high-quality services at every price point. No hourly rates,
+              just project-based pricing
             </p>
             <div className="title">
               <img src={check} alt="" />
@@ -61,11 +59,18 @@ const Home = () => {
               The best for every budget
             </div>
             <p>
-              Find high-quality services at every price point. No hourly rates, just project-based pricing
+              Find high-quality services at every price point. No hourly rates,
+              just project-based pricing
             </p>
           </div>
-          <div className='item'>
-            <video src={video} typeof="video/mp4" loop autoPlay controls ></video>
+          <div className="item">
+            <video
+              src={video}
+              typeof="video/mp4"
+              loop
+              autoPlay
+              controls
+            ></video>
           </div>
         </div>
       </div>
@@ -202,19 +207,12 @@ const Home = () => {
 
       {/* second slider */}
       <Slide slidesToShow={4} arrowsScroll={3}>
-        {
-          projects?.map(card => (
-            <ProjectCard key={card?.id} item={card} />
-          ))
-        }
+        {projects?.map((card) => (
+          <ProjectCard key={card?.id} item={card} />
+        ))}
       </Slide>
-      
     </div>
+  );
+};
 
-
-    
-    
-  )
-}
-
-export default Home
+export default Home;
