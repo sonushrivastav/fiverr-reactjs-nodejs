@@ -45,3 +45,33 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.footer .container .bottom .left{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer .container .bottom .left span{
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.footer .container .bottom .right{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer .container .bottom .right .social{
+    display: flex;
+    gap: 20px;
+}
+
+.footer .container .bottom .right .link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
