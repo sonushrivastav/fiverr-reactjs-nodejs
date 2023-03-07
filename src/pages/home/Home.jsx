@@ -8,6 +8,7 @@ import { projects } from '../../data'
 import CategoryCard from '../../components/categoryCard/CategoryCard'
 import check from "../../assets/check.png"
 import video from "../../assets/video.mp4"
+import ProjectCard from '../../components/projectCard/ProjectCard'
 const Home = () => {
   return (
     <div className='home'>
@@ -203,7 +204,7 @@ const Home = () => {
       <Slide slidesToShow={4} arrowsScroll={3}>
         {
           projects?.map(card => (
-            <CategoryCard key={card?.id} item={ card} />
+            <ProjectCard key={card?.id} item={card} />
           ))
         }
       </Slide>
