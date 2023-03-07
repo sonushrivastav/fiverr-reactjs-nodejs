@@ -1,0 +1,26 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    color: #999;
+    margin: 50px 0px;
+}
+
+/* .footer img{
+    width: 24px;
+    height: 24px;
+} */
+
+.footer .container{
+    width: 1200px;
+}
+
+.footer .container .top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .container .top .item{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

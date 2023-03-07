@@ -86,7 +86,7 @@ const Footer = () => {
           </div>
           <div className='right'>
             <div className='social'>
-            <img src={twitter} alt="" />
+              <img src={twitter} alt="" />
               <img src={facebook} alt="" />
               <img src={linkedin} alt="" />
               <img src={pinterest} alt="" />
