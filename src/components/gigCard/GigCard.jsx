@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./gigcard.css";
 import star from "../../assets/star.png"
-import doller from "../../assets/heart.png"
+import heart from "../../assets/heart.png"
 const GigCard = ({ item }) => {
   return (
     <Link to="/gig/123" className="links">
@@ -21,10 +21,10 @@ const GigCard = ({ item }) => {
         </div>
         <hr />
         <div className="details">
-          <img src={doller} alt="" />
+          <img src={heart} alt="" />
           <div className="price">
             <span>STARTING AT</span>
-            <h2> ${item?.price} <sup>99</sup></h2>
+            <h2>${item?.price}</h2>
           </div>
         </div>
       </div>
