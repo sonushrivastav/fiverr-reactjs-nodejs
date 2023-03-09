@@ -27,7 +27,6 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;
-    border: 1px solid red;
 }
 
 .gigs .gigscontainer .menu .leftmenu{
@@ -47,4 +46,34 @@
 
 .gigs .gigscontainer .menu .leftmenu input::placeholder{
     color: gray;
+}
+
+.gigs .gigscontainer .menu .leftmenu button{
+    background-color: #1dbf73;
+    color: white;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.gigs .gigscontainer .menu .rightmenucontainer{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+.gigs .gigscontainer .menu .rightmenucontainer .sortBy{
+    color: #555;
+    font-weight: 300;
+}
+
+.gigs .gigscontainer .menu .rightmenucontainer .sortType{
+    font-weight: 500;
+}
+
+.gigs .gigscontainer .menu .rightmenucontainer img{
+    width: 15px;
+    cursor: pointer;
 }

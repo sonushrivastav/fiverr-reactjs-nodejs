@@ -17,7 +17,7 @@ const Gigs = () => {
             <input type="text" placeholder='max'/>
             <button>Apply</button>
           </div>
-          <div className='rightmenu'>
+          <div className='rightmenucontainer'>
             <span className='sortBy'>SortBy</span>
             <span className='sortType'>Best Selling</span>
             <img src={downimg} alt="" />
