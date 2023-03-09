@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./gigcard.css";
+import star from "../../assets/star.png"
+import doller from "../../assets/heart.png"
 const GigCard = ({ item }) => {
   return (
     <Link to="/gig/123" className="links">
@@ -13,16 +15,16 @@ const GigCard = ({ item }) => {
           </div>
           <p>{item?.desc}</p>
           <div className="star">
-            <img src="" alt="" />
+            <img src={star} alt="" />
             <span>{item?.star}</span>
           </div>
         </div>
         <hr />
         <div className="details">
-          <img src="" alt="" />
+          <img src={doller} alt="" />
           <div className="price">
             <span>STARTING AT</span>
-            <h2>{item?.price}</h2>
+            <h2> ${item?.price} <sup>99</sup></h2>
           </div>
         </div>
       </div>
