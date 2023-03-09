@@ -181,4 +181,13 @@ export const cards = [
       star: 4,
       username: "Wilton Hunt",
     },
+    {
+      id: 9,
+      img: "https://www.udacity.com/blog/wp-content/uploads/2021/04/Random-Numbers_Blog-scaled-e1631635327616.jpeg",
+      pp: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+      desc: "I will create some random number with auto generator",
+      price: 104,
+      star: 6,
+      username: "John Killie",
+    },
   ];
