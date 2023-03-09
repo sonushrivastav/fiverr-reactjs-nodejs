@@ -4,6 +4,8 @@
     width: 100%;
 }
 
+
+
 .gigs .gigscontainer{
     width: 1200px;
     padding: 30px 0px;
@@ -93,4 +95,10 @@
 }
 .gigs .gigscontainer .menu .rightMenu span{
     cursor: pointer;
+}
+
+.gigcards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }

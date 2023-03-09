@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./gigs.css";
 import downimg from "../../assets/down.png";
+import GigCard from "../../components/gigCard/GigCard";
+import {gigs} from "../../data"
 const Gigs = () => {
   const [open, setOpen] = useState(false);
   const [sort, setSort] = useState("sales");
@@ -34,6 +36,13 @@ const Gigs = () => {
               </div>
             )}
           </div>
+        </div>
+        <div className="gigcards">
+          {
+            gigs?.map((gig) => 
+              <GigCard key={gig.id} item={gig} />
+            )
+         }
         </div>
       </div>
     </div>

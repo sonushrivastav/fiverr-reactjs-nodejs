@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./gigcard.css";
 const GigCard = ({ item }) => {
   return (
-    <Link to="/gig/123">
+    <Link to="/gig/123" className="links">
       <div className="gigCard">
         <img src={item?.img} alt="" />
         <div className="info">
