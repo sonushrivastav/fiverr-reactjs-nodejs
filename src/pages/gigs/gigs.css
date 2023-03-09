@@ -77,3 +77,20 @@
     width: 15px;
     cursor: pointer;
 }
+
+.gigs .gigscontainer .menu .rightMenu{
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    border: .5px solid rgb(187, 243, 187);
+    position: absolute;
+    top: 30px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #555;
+}
+.gigs .gigscontainer .menu .rightMenu span{
+    cursor: pointer;
+}
