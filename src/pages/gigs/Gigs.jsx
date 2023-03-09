@@ -1,5 +1,6 @@
 import React from 'react'
-import "./gigs.css"
+import "./gigs.css";
+import downimg from "../../assets/down.png"
 const Gigs = () => {
   return (
     <div className='gigs'>
@@ -19,7 +20,7 @@ const Gigs = () => {
           <div className='right'>
             <span className='sortBy'>SortBy</span>
             <span className='sortType'>Best Selling</span>
-            <img src="" alt="" />
+            <img src={downimg} alt="" />
             <div className='rightMenu'>
               <span>Newest</span>
               <span>Best Selling</span>
