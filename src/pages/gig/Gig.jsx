@@ -11,6 +11,7 @@ const Gig = () => {
           <h1>I will create ai generated art for you</h1>
           <div className="giguser">
             <img
+              className="pp"
               src="https://images.pexels.com/photos/720327/pexels-photo-720327.jpeg?auto=compress&cs=tinysrgb&w=1600"
               alt=""
             />

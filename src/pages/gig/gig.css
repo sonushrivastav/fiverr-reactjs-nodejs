@@ -16,3 +16,18 @@
     flex-direction: column;
     gap: 20px;
 }
+
+.gigLeft .breadCrumbs{
+    font-weight: 300;
+    font-size: 13px;
+    color: #555;
+}
+
+.gigLeft .giguser{
+    display: flex;
+    align-items: center;
+}
+
+.gigRight{
+    flex: 1;
+}
