@@ -20,14 +20,26 @@
 .gigLeft .breadCrumbs{
     font-weight: 300;
     font-size: 13px;
+    text-transform: uppercase;
     color: #555;
 }
 
 .gigLeft .giguser{
     display: flex;
     align-items: center;
+    gap: 10px;
+
+}
+.gigLeft .giguser .pp{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
 }
 
 .gigRight{
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    max-height: 500px;
 }
