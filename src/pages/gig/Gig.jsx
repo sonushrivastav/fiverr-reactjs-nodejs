@@ -65,12 +65,12 @@ const Gig = () => {
               <div className="info">
                 <span>Anna Bell</span>
                 <div className="stars">
-                  <img src="/img/star.png" alt="" />
-                  <img src="/img/star.png" alt="" />
-                  <img src="/img/star.png" alt="" />
-                  <img src="/img/star.png" alt="" />
-                  <img src="/img/star.png" alt="" />
-                  <span>5</span>
+                <img src={star} alt="" />
+              <img src={star} alt="" />
+              <img src={star} alt="" />
+              <img src={star} alt="" />
+              <img src={star} alt="" />
+              <span>5</span>
                 </div>
                 <button>Contact Me</button>
               </div>
@@ -128,12 +128,12 @@ const Gig = () => {
                 </div>
               </div>
               <div className="stars">
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
-                <span>5</span>
+              <img src={star} alt="" />
+              <img src={star} alt="" />
+              <img src={star} alt="" />
+              <img src={star} alt="" />
+              <img src={star} alt="" />
+              <span>5</span>
               </div>
               <p>
                 I just want to say that art_with_ai was the first, and after
@@ -171,12 +171,12 @@ const Gig = () => {
                 </div>
               </div>
               <div className="stars">
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
-                <span>5</span>
+              <img src={star} alt="" />
+              <img src={star} alt="" />
+              <img src={star} alt="" />
+              <img src={star} alt="" />
+              <img src={star} alt="" />
+              <span>5</span>
               </div>
               <p>
                 The designer took my photo for my book cover to the next level!
@@ -207,12 +207,12 @@ const Gig = () => {
                   </div>
               </div>
               <div className="stars">
-              <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
-                <img src="/img/star.png" alt="" />
-                <span>5</span>
+              <img src={star} alt="" />
+              <img src={star} alt="" />
+              <img src={star} alt="" />
+              <img src={star} alt="" />
+              <img src={star} alt="" />
+              <span>5</span>
               </div>
               <p>
               Amazing work! Communication was
