@@ -90,6 +90,29 @@ const Gig = () => {
                   <span className="desc">English</span>
                 </div>
               </div>
+              <hr />
+              <p>
+              My name is Anna, I enjoy creating AI generated art in my spare
+                time. I have a lot of experience using the AI program and that
+                means I know what to prompt the AI with to get a great and
+                incredibly detailed result.
+              </p>
+            </div>
+          </div>
+          <div className='reviews'>
+            <h2>Reviews</h2>
+            <div className='item'>
+              <div className='user'>
+                <img className="pp"
+                  src="https://images.pexels.com/photos/839586/pexels-photo-839586.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" />
+                <div className='info'>
+                  <span>Garner David</span>
+                  <div className='country'>
+                         <img src="https://fiverr-dev-res.cloudinary.com/general_assets/flags/1f1fa-1f1f8.png" alt="" />
+                         <span>United States</span>
+                  </div>
+                </div>
+           </div>
             </div>
           </div>
         </div>
