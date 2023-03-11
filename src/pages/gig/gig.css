@@ -41,6 +41,23 @@
     font-weight: 500;
 }
 
+.gigStars{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.gigStars img{
+    height: 14px;
+    width: 14px;
+}
+
+.gigStars span{
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffc108;
+}
+
 .gigRight{
     flex: 1;
     display: flex;
