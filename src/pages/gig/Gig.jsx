@@ -108,6 +108,8 @@ const Gig = () => {
               </p>
             </div>
           </div>
+
+
           <div className="reviews">
             <h2>Reviews</h2>
             <div className="item">
@@ -203,7 +205,7 @@ const Gig = () => {
                 />
                 <div className="info">
                   <span>Lyle Giles</span>
-                  <div className="">
+                  <div className="country">
                     <img
                       src="https://fiverr-dev-res.cloudinary.com/general_assets/flags/1f1fa-1f1f8.png"
                       alt=""
