@@ -36,6 +36,11 @@
     border-radius: 50%;
 }
 
+.gigLeft .giguser span{
+    font-size: 14px;
+    font-weight: 500;
+}
+
 .gigRight{
     flex: 1;
     display: flex;
