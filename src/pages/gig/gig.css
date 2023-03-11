@@ -58,6 +58,26 @@
     color: #ffc108;
 }
 
+
+.gigLeft .Slider{
+    background-color: #F5F5F5;
+    
+}
+.gigLeft .Slider img{
+    max-height: 500px;
+    object-fit: contain;
+}
+
+.gigLeft h2{
+    font-weight: 400;
+}
+
+.gigLeft p{
+    font-weight: 300;
+    line-height: 25px;
+    color: #555;
+}
+
 .gigRight{
     flex: 1;
     display: flex;

@@ -25,7 +25,7 @@ const Gig = () => {
               <span>5</span>
             </div>
           </div>
-          <Slider slidesToShow={1} arrowScroll={1}>
+          <Slider className="Slider" slidesToShow={1} arrowScroll={1}>
             <img
               src="https://images.pexels.com/photos/1074535/pexels-photo-1074535.jpeg?auto=compress&cs=tinysrgb&w=1600"
               alt=""
