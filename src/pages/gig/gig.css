@@ -139,3 +139,30 @@
     font-weight: bold;
     color: #ffc108;
 }
+.seller .user .info button{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.seller .box{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.seller .box .items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.seller .box .items .item{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
