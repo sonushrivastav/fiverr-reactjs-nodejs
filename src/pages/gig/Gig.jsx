@@ -2,6 +2,11 @@ import React from "react";
 import "./gig.css";
 import Slider from "infinite-react-carousel";
 import star from "../../assets/star.png";
+import like from "../../assets/like.png"
+import dislike from "../../assets/dislike.png"
+import clock from "../../assets/clock.png"
+import recycle from "../../assets/recycle.png"
+import greencheck from "../../assets/greencheck.png"
 const Gig = () => {
   return (
     <div className="gig">
@@ -148,9 +153,9 @@ const Gig = () => {
               </p>
               <div className="helpful">
                 <span>Helpful?</span>
-                <img src="/img/like.png" alt="" />
+                <img src={like} alt="" />
                 <span>Yes</span>
-                <img src="/img/dislike.png" alt="" />
+                <img src={dislike} alt="" />
                 <span>No</span>
               </div>
             </div>
@@ -189,9 +194,9 @@ const Gig = () => {
               </p>
               <div className="helpful">
                 <span>Helpful?</span>
-                <img src="/img/like.png" alt="" />
+                <img src={like} alt="" />
                 <span>Yes</span>
-                <img src="/img/dislike.png" alt="" />
+                <img src={dislike} alt="" />
                 <span>No</span>
               </div>
             </div>
@@ -231,9 +236,9 @@ const Gig = () => {
               </p>
               <div className="helpful">
                 <span>Helpful</span>
-                <img src="/img/like.png" alt="" />
+                <img src={like} alt="" />
                 <span>Yes</span>
-                <img src="/img/dislike.png" alt="" />
+                <img src={dislike} alt="" />
                 <span>No</span>
               </div>
             </div>
@@ -250,29 +255,29 @@ const Gig = () => {
           </p>
           <div className="details">
             <div className="item">
-              <img src="/img/clock.png" alt="" />
+              <img src={like} alt="" />
               <span>2 Days Delivery</span>
             </div>
             <div className="item">
-              <img src="/img/recycle.png" alt="" />
+              <img src={dislike} alt="" />
               <span>3 Revisions</span>
             </div>
           </div>
           <div className="features">
             <div className="item">
-              <img src="/img/greencheck.png" alt="" />
+              <img src={greencheck} alt="" />
               <span>Prompt writing</span>
             </div>
             <div className="item">
-              <img src="/img/greencheck.png" alt="" />
+              <img src={greencheck} alt="" />
               <span>Artwork delivery</span>
             </div>
             <div className="item">
-              <img src="/img/greencheck.png" alt="" />
+              <img src={greencheck} alt="" />
               <span>Image upscaling</span>
             </div>
             <div className="item">
-              <img src="/img/greencheck.png" alt="" />
+              <img src={greencheck} alt="" />
               <span>Additional design</span>
             </div>
           </div>
