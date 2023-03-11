@@ -66,12 +66,12 @@ const Gig = () => {
               <div className="info">
                 <span>Anna Bell</span>
                 <div className="stars">
-                <img src={star} alt="" />
-              <img src={star} alt="" />
-              <img src={star} alt="" />
-              <img src={star} alt="" />
-              <img src={star} alt="" />
-              <span>5</span>
+                  <img src={star} alt="" />
+                  <img src={star} alt="" />
+                  <img src={star} alt="" />
+                  <img src={star} alt="" />
+                  <img src={star} alt="" />
+                  <span>5</span>
                 </div>
                 <button>Contact Me</button>
               </div>
@@ -129,12 +129,12 @@ const Gig = () => {
                 </div>
               </div>
               <div className="stars">
-              <img src={star} alt="" />
-              <img src={star} alt="" />
-              <img src={star} alt="" />
-              <img src={star} alt="" />
-              <img src={star} alt="" />
-              <span>5</span>
+                <img src={star} alt="" />
+                <img src={star} alt="" />
+                <img src={star} alt="" />
+                <img src={star} alt="" />
+                <img src={star} alt="" />
+                <span>5</span>
               </div>
               <p>
                 I just want to say that art_with_ai was the first, and after
@@ -172,12 +172,12 @@ const Gig = () => {
                 </div>
               </div>
               <div className="stars">
-              <img src={star} alt="" />
-              <img src={star} alt="" />
-              <img src={star} alt="" />
-              <img src={star} alt="" />
-              <img src={star} alt="" />
-              <span>5</span>
+                <img src={star} alt="" />
+                <img src={star} alt="" />
+                <img src={star} alt="" />
+                <img src={star} alt="" />
+                <img src={star} alt="" />
+                <span>5</span>
               </div>
               <p>
                 The designer took my photo for my book cover to the next level!
@@ -196,35 +196,40 @@ const Gig = () => {
             <hr />
             <div className="item">
               <div className="user">
-             <img className="pp"
+                <img
+                  className="pp"
                   src="https://images.pexels.com/photos/842980/pexels-photo-842980.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                  alt="" />
+                  alt=""
+                />
                 <div className="info">
-                   <span>Lyle Giles</span>
+                  <span>Lyle Giles</span>
                   <div className="">
-                    <img src="https://fiverr-dev-res.cloudinary.com/general_assets/flags/1f1fa-1f1f8.png" alt="" />
+                    <img
+                      src="https://fiverr-dev-res.cloudinary.com/general_assets/flags/1f1fa-1f1f8.png"
+                      alt=""
+                    />
                     <span>United States</span>
-                   </div>
                   </div>
+                </div>
               </div>
               <div className="stars">
-              <img src={star} alt="" />
-              <img src={star} alt="" />
-              <img src={star} alt="" />
-              <img src={star} alt="" />
-              <img src={star} alt="" />
-              <span>5</span>
+                <img src={star} alt="" />
+                <img src={star} alt="" />
+                <img src={star} alt="" />
+                <img src={star} alt="" />
+                <img src={star} alt="" />
+                <span>5</span>
               </div>
               <p>
-              Amazing work! Communication was
-                amazing, each and every day he sent me images that I was free to
-                request changes to. They listened, understood, and delivered
-                above and beyond my expectations. I absolutely recommend this
-                gig, and know already that Ill be using it again very very soon
+                Amazing work! Communication was amazing, each and every day he
+                sent me images that I was free to request changes to. They
+                listened, understood, and delivered above and beyond my
+                expectations. I absolutely recommend this gig, and know already
+                that Ill be using it again very very soon
               </p>
               <div className="helpful">
-             <span>Helpful</span>
-             <img src="/img/like.png" alt="" />
+                <span>Helpful</span>
+                <img src="/img/like.png" alt="" />
                 <span>Yes</span>
                 <img src="/img/dislike.png" alt="" />
                 <span>No</span>
@@ -238,11 +243,11 @@ const Gig = () => {
             <h2>$ 59.99</h2>
           </div>
           <p>
-          I will create a unique high quality AI generated image based on a
+            I will create a unique high quality AI generated image based on a
             description that you give me
           </p>
           <div className="details">
-          <div className="item">
+            <div className="item">
               <img src="/img/clock.png" alt="" />
               <span>2 Days Delivery</span>
             </div>
@@ -252,7 +257,7 @@ const Gig = () => {
             </div>
           </div>
           <div className="features">
-          <div className="item">
+            <div className="item">
               <img src="/img/greencheck.png" alt="" />
               <span>Prompt writing</span>
             </div>

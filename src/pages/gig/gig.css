@@ -96,3 +96,46 @@
     height: max-content;
     max-height: 500px;
 }
+
+.seller{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.seller .user{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.seller .user img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.seller .user .info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.seller .user .info .stars{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.seller .user .info .stars img{
+    height: 14px;
+    width: 14px;
+}
+
+.seller .user .info .stars span{
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffc108;
+}
