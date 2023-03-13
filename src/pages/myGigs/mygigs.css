@@ -1,0 +1,45 @@
+.myGigs{
+    display: flex;
+    justify-content: center;
+    
+}
+.myGigs .myGigsContainer{
+    width: 1200px;
+    padding: 50px 0px;
+}
+
+.myGigs .myGigsContainer .myGigsTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.myGigs .myGigsContainer .myGigsTitle button{
+    background-color: #1dbf73;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.myGigs .myGigsContainer table{
+    width: 100%;
+}
+
+.myGigs .myGigsContainer table tr{
+    height: 50px;
+}
+.myGigs .myGigsContainer table tr th{
+    text-align: left;
+}
+
+.myGigs .myGigsContainer table tr td .imgee{
+    width: 50px;
+    height: 25px;
+    object-fit: cover;
+}
+.myGigs .myGigsContainer table tr td .delete{
+    width: 20px;
+    cursor: pointer;
+}
