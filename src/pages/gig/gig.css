@@ -263,19 +263,19 @@
     gap: 10px;
 }
 
-.gigRight .details{
+.gigRight .detailss{
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 14px;
 }
 
-.gigRight .details .item{
+.gigRight .detailss .items{
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.gigRight .details .item img{
+.gigRight .detailss .items img{
    width: 20px;
 }
 .gigRight .featuress{
