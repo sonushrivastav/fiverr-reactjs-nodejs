@@ -287,3 +287,17 @@
    color: gray;
    margin-bottom: 5px;
 }
+
+.gigRight .features .item img{
+    width: 14px;
+}
+
+.gigRight button{
+    background-color: #1dbf73;
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
