@@ -263,20 +263,20 @@ const Gig = () => {
               <span>3 Revisions</span>
             </div>
           </div>
-          <div className="features">
-            <div className="item">
+          <div className="featuress">
+            <div className="items">
               <img src={greencheck} alt="" />
               <span>Prompt writing</span>
             </div>
-            <div className="item">
+            <div className="items">
               <img src={greencheck} alt="" />
               <span>Artwork delivery</span>
             </div>
-            <div className="item">
+            <div className="items">
               <img src={greencheck} alt="" />
               <span>Image upscaling</span>
             </div>
-            <div className="item">
+            <div className="items">
               <img src={greencheck} alt="" />
               <span>Additional design</span>
             </div>
