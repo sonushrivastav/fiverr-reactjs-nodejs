@@ -30,6 +30,9 @@
 .myGigs .myGigsContainer table tr{
     height: 50px;
 }
+.myGigs .myGigsContainer table tr:nth-child(even){
+    background-color: #0679430f;
+}
 .myGigs .myGigsContainer table tr th{
     text-align: left;
 }

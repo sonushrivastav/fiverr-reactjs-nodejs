@@ -1,0 +1,48 @@
+.Orders{
+    display: flex;
+    justify-content: center;
+    
+}
+.Orders .ordersContainer{
+    width: 1200px;
+    padding: 50px 0px;
+}
+
+.Orders .ordersContainer .ordersTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.Orders .ordersContainer .ordersTitle button{
+    background-color: #1dbf73;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.Orders .ordersContainer table{
+    width: 100%;
+}
+
+.Orders .ordersContainer table tr{
+    height: 50px;
+}
+.Orders .ordersContainer table tr:nth-child(even){
+    background-color: #0679430f;
+}
+.Orders .ordersContainer table tr th{
+    text-align: left;
+}
+
+.Orders .ordersContainer table tr td .imgee{
+    width: 50px;
+    height: 25px;
+    object-fit: cover;
+}
+.Orders .ordersContainer table tr td .delete{
+    width: 20px;
+    cursor: pointer;
+}
