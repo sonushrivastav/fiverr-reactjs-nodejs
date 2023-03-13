@@ -278,3 +278,12 @@
 .gigRight .details .item img{
    width: 20px;
 }
+
+.gigRight .features .item{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   font-weight: 300;
+   color: gray;
+   margin-bottom: 5px;
+}
