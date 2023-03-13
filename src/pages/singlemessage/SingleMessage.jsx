@@ -1,11 +1,11 @@
 import React from 'react'
-import "./singlemessage.css"
+import "./singlemessage.scss"
 import { Link } from 'react-router-dom'
 
 const SingleMessage = () => {
   return (
     <div className="message">
-    <div className="Messagecontainer">
+    <div className="container">
       <span className="breadcrumbs">
         <Link to="/messages" style={{textDecoration:"none", color:"inherit"}}>Messages</Link> > John Doe >
       </span>
