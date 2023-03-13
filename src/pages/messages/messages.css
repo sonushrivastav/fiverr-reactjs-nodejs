@@ -44,3 +44,41 @@
     border-radius: 50%;
     object-fit: cover;
 }
+
+.Messagecontainer .messages .item p{
+    max-width: 500px;
+    padding: 20px;
+    background-color: rgb(244,241,241);
+    border-radius: 0px 20px 20px 20px;
+    color: gray;
+    font-weight: 300;
+}
+.Messagecontainer hr{
+    height: 0;
+    border: 0.5px solid rgb(232, 230, 230);
+    margin-bottom: 20px;
+}
+.Messagecontainer .write{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Messagecontainer .write textarea{
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+
+}
+
+.Messagecontainer .write button{
+    background-color: #1dbf73;
+    padding: 20px;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+}
