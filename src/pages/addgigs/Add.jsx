@@ -6,6 +6,7 @@ const Add = () => {
       <div className='addContainer'>
         <h1>Add new Gig</h1>
         <div className='sections'>
+          <div className='info'>
           <label htmlFor="">Title</label>
           <input type="text" placeholder="e.g. I will do something I'm really good at" />
           <label htmlFor="">Category</label>
@@ -23,6 +24,24 @@ const Add = () => {
           <textarea name="" id="" placeholder="Brief descriptions to introduce your service to customers" cols="0" rows="16"></textarea>
           <button>Create</button>
         </div>
+        <div className='gigDetails'>
+          <label htmlFor="">Service Title</label>
+          <input type="text" placeholder="e.g. One-page web design"/>
+          <label htmlFor="">Short Description</label>
+          <textarea name="" id="" placeholder="Short description of your service" cols="30" rows="10"></textarea>
+          <label htmlFor="">Delivery Time (e.g. 3 days)</label>
+          <input type="number" />
+          <label htmlFor="">Revision Number</label>
+          <input type="number" />
+          <label htmlFor="">Add Features</label>
+          <input type="text" placeholder="e.g. page design" />
+            <input type="text" placeholder="e.g. file uploading" />
+            <input type="text" placeholder="e.g. setting up a domain" />
+            <input type="text" placeholder="e.g. hosting" />
+            <label htmlFor="">Price</label>
+            <input type="number" />
+          </div>
+          </div>
       </div>
     </div>
   )
