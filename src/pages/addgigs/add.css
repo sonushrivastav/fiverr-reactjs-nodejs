@@ -1,0 +1,15 @@
+.Add{
+    display: flex;
+    justify-content: center;
+}
+.Add .addContainer{
+    width: 1200px;
+    padding: 50px 0px;
+}
+
+.Add .addContainer h1{
+    width: max-content;
+    margin-bottom: 30px;
+    color: gray;
+    font-weight: 300;
+}

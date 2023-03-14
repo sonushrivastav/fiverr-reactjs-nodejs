@@ -2,7 +2,7 @@ import React from 'react'
 import "./add.css"
 const Add = () => {
   return (
-    <div className='add'>
+    <div className='Add'>
       <div className='addContainer'>
         <h1>Add new Gig</h1>
         <div className='sections'>
