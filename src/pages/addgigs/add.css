@@ -40,3 +40,12 @@
 .Add .addContainer .sections .right input, select, textarea{
     padding: 20px;
 }
+.Add .addContainer .sections .left button{
+    border: none;
+    padding: 20px;
+    background-color: #1dbf73;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+}
