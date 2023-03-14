@@ -13,3 +13,30 @@
     color: gray;
     font-weight: 300;
 }
+
+.Add .addContainer .sections{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.Add .addContainer .sections .left, .Add .addContainer .sections .right {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.Add .addContainer .sections .left label, .Add .addContainer .sections .right label{
+    color: gray;
+    font-style: 18px;
+}
+
+.Add .addContainer .sections .left input, select,textarea{
+    padding: 20px;
+}
+
+.Add .addContainer .sections .right input, select, textarea{
+    padding: 20px;
+}
