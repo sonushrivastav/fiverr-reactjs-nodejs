@@ -28,6 +28,14 @@ const userSchema = new Schema({
     phone: {
         type: Number,
         requred:true,
+    },
+    desc: {
+        type: String,
+        required:false,
+    },
+    isSeller: {
+        type:Boolean,
+        default:false
     }
 
     
