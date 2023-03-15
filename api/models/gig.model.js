@@ -2,7 +2,14 @@ import mongoose from "mongoose";
 const {Schema} = mongoose
 
 const GigSchema = new Schema({
-
+    userId: {
+        type: String,
+        required,
+    },
+    title :{
+        type: String,
+        required
+    }
 }, {
     timestamps:true
 })
