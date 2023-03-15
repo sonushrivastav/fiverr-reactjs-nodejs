@@ -15,6 +15,19 @@ const userSchema = new Schema({
     password: {
         type: String,
         required :true
+    },
+    img: {
+        type: String,
+        required: false,
+        
+    },
+    country: {
+        type: String,
+        required:true
+    },
+    phone: {
+        type: Number,
+        requred:true,
     }
 
     
