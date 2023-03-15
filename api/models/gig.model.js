@@ -9,6 +9,10 @@ const GigSchema = new Schema({
     title :{
         type: String,
         required
+    },
+    desc: {
+        type: String,
+        required
     }
 }, {
     timestamps:true
