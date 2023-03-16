@@ -4,59 +4,59 @@ const {Schema} = mongoose
 const GigSchema = new Schema({
     userId: {
         type: String,
-        required,
+        required:true,
     },
     title :{
         type: String,
-        required
+        required:true
     },
     desc: {
         type: String,
-        required
+        required:true
     },
     totalStars: {
         type: Number,
-        required,
+        required:true,
     },
     startNumber: {
         type: Number,
-        required
+        required:true
     },
     category: {
         type:String,
-        required
+        required:true
     },
     price: {
         type: Number,
-        required
+        required:true
     },
     cover: {
         type: String,
-        required
+        required:true
     },
     images: {
         type: [String],
-        required
+        required:true
     },
     shortTime: {
         type: String,
-        required
+        required:true
     },
     shortDesc: {
         type: String,
-        required 
+        required:true 
     },
     deliverTime: {
         type: Number,
-        required
+        required:true
     },
     revisionNumber: {
         type: Number,
-        required
+        required:true
     },
     features: {
         type: [String],
-        required
+        required:false
     }
 }, {
     timestamps:true
