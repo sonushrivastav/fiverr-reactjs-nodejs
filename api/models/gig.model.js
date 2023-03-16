@@ -18,7 +18,18 @@ const GigSchema = new Schema({
         type: Number,
         required,
     },
-    userId
+    startNumber: {
+        type: Number,
+        required
+    },
+    category: {
+        type:String,
+        required
+    },
+    price: {
+        type: Number,
+        required
+    }
 }, {
     timestamps:true
 })
