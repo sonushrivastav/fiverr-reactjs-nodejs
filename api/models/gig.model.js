@@ -37,6 +37,14 @@ const GigSchema = new Schema({
     images: {
         type: [String],
         required
+    },
+    shortTime: {
+        type: String,
+        required
+    },
+    shortDesc: {
+        type: String,
+        required
     }
 }, {
     timestamps:true
