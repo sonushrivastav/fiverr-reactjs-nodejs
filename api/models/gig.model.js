@@ -13,7 +13,12 @@ const GigSchema = new Schema({
     desc: {
         type: String,
         required
-    }
+    },
+    totalStars: {
+        type: Number,
+        required,
+    },
+    userId
 }, {
     timestamps:true
 })
