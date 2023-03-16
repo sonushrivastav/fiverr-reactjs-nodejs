@@ -16,11 +16,12 @@ const GigSchema = new Schema({
     },
     totalStars: {
         type: Number,
-        required:true,
+        default:0,
     },
     startNumber: {
         type: Number,
-        required:true
+        default:0,
+
     },
     category: {
         type:String,
@@ -30,13 +31,13 @@ const GigSchema = new Schema({
         type: Number,
         required:true
     },
-    cover: {
+    coverImg: {
         type: String,
         required:true
     },
     images: {
         type: [String],
-        required:true
+        required:false
     },
     shortTime: {
         type: String,
