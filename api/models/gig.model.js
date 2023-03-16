@@ -29,6 +29,14 @@ const GigSchema = new Schema({
     price: {
         type: Number,
         required
+    },
+    cover: {
+        type: String,
+        required
+    },
+    images: {
+        type: [String],
+        required
     }
 }, {
     timestamps:true
