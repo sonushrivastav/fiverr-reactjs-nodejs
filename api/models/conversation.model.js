@@ -19,7 +19,10 @@ const ConversationSchema = new Schema({
         type: Boolean,
         required:true
     },
-    
+    readbySeller: {
+        type: Boolean,
+        required:true
+    }
     
 }, {
     timestamps:true
