@@ -26,6 +26,14 @@ const OrderSchema = new Schema({
     buyerId: {
         type: String,
         required:true
+    },
+    isCompleted: {
+        type: Boolean,
+        default:false
+    },
+    payment_intent: {
+        type: String,
+        required:true
     }
 
     
