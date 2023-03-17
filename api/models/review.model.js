@@ -12,7 +12,12 @@ const reviewSchema = new Schema({
     },
     star: {
         type: Number,
-        default:0
+        required: true,
+        enum:[1,2,3,4,5]
+    },
+    desc: {
+        type: String,
+        required:true
     }
 
     
