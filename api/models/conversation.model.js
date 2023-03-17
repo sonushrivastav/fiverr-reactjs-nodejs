@@ -2,22 +2,10 @@ import mongoose from "mongoose";
 const { Schema } = mongoose
 
 const ConversationSchema = new Schema({
-    gigId: {
-        type: String,
-        required:true
-    },
-    img: {
-        type: String,
-        required:false,
-    },
-    title: {
+    id: {
         type: String,
         required: true,
-        
-    },
-    price: {
-        type: Number,
-        required:true
+        unique:true
     },
     sellerId: {
         type: String,
@@ -26,16 +14,7 @@ const ConversationSchema = new Schema({
     buyerId: {
         type: String,
         required:true
-    },
-    isCompleted: {
-        type: Boolean,
-        default:false
-    },
-    payment_intent: {
-        type: String,
-        required:true
     }
-
     
 }, {
     timestamps:true
