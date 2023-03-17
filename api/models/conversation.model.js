@@ -14,7 +14,12 @@ const ConversationSchema = new Schema({
     buyerId: {
         type: String,
         required:true
-    }
+    },
+    readbyBuyer: {
+        type: Boolean,
+        required:true
+    },
+    
     
 }, {
     timestamps:true
