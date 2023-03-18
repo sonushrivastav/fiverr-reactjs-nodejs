@@ -2,7 +2,8 @@ import express from "express";
 import mongoose from "mongoose";
 const app = express();
 import dotenv from "dotenv"
-const PORT = process.env.PORT || 8000
+const PORT = process.env.PORT || 8000;
+import userRoute from "./routes/user.route.js"
 
 dotenv.config()
 
@@ -15,6 +16,8 @@ const connect = async() => {
     }
     
 }
+
+app.use("/api/user", userRoute)
 
 
 app.listen(PORT, () => {
