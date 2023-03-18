@@ -22,8 +22,11 @@ const ConversationSchema = new Schema({
     readbySeller: {
         type: Boolean,
         required:true
+    },
+    lastMessage: {
+        type: String,
+        requred:false
     }
-    
 }, {
     timestamps:true
 })
