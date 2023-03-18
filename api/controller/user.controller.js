@@ -1,3 +1,3 @@
-export const deleteuser = (req, res) => {
-    res.json("from controler")
+export const fn = (req, res) => {
+    
 }
