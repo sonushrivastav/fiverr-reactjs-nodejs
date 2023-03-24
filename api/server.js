@@ -23,6 +23,8 @@ const connect = async() => {
     
 }
 
+app.use(express.json())
+
 app.use("/api/users", userRoute)
 app.use("/api/gigs", gigRoute)
 app.use("/api/orders", orderRoute)
