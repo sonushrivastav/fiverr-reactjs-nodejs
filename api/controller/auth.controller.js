@@ -1,4 +1,8 @@
-export const register = async(req, res) => {
+import User from "../models/user.model.js"
+import bcrypt from "bcrypt"
+
+
+export const register = async (req, res) => {
     try {
         const newUser = new User(
             req.body
