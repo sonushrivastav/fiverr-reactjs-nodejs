@@ -1,4 +1,4 @@
-export const register = (req, res) => {
+export const register = async(req, res) => {
     try {
         const newUser = new User({
             username: "test",
@@ -6,6 +6,9 @@ export const register = (req, res) => {
             password: "test",
             country:"test"
         })
+
+        await newUser.save();
+        res.status(201).send("user has been created!")
     } catch (error) {
         res.status(500).send("Something went Wrong!")
     }
